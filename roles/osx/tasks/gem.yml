@@ -1,0 +1,11 @@
+---
+- name: Install GEMS packages
+  gem: name={{ item }} state=latest
+  with_items:
+    - asciidoctor
+    - digital_ocean
+    - nokogiri
+    - nomad-cli
+    - pygments.rb
+    - rake
+    - tugboat

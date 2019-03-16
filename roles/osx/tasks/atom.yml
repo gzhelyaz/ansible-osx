@@ -1,0 +1,42 @@
+- name: Install Atom Packages
+  shell: /usr/local/bin/apm install {{ item }}
+  with_items:
+    - atom-beautify
+    - auto-detect-indentation
+    - atom-auto-update-packages
+    - autoclose-html
+    - autocomplete-ansible
+    - autocomplete-modules
+    - build-dockerfile
+    - color-picker
+    - custom-title
+    - docblockr
+    - docker
+    - emmet
+    - expose
+    - faker
+    - file-icons
+    - git-plus
+    - git-time-machine
+    - highlight-selected
+    - language-ansible
+    - language-docker
+    - language-elm
+    - language-unix-shell
+    - linter
+    - linter-csslint
+    - linter-docker
+    - linter-htmlhint
+    - linter-jade
+    - linter-jshint
+    - linter-markdown
+    - linter-sass-lint
+    - lipsum
+    - markdown-preview-plus
+    - merge-conflicts
+    - minimap
+    - minimap-highlight-selected
+    - pigments
+    - project-manager
+    - simple-drag-drop-text
+    - todo-show

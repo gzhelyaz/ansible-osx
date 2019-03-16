@@ -1,0 +1,20 @@
+---
+- git: 
+    repo: https://github.com/kristof/sketch-i18n.git
+    dest: ~/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins
+
+- git: 
+    repo: https://github.com/keremciu/sketch-iconfont.git
+    dest: ~/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins
+
+- git: 
+    repo: https://github.com/matt-curtis/Fluid-for-Sketch.git
+    dest: ~/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins
+
+- git:
+    repo: https://github.com/utom/sketch-measure.git
+    dest: ~/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins
+
+- git:
+    repo: https://github.com/GeertWille/sketch-to-xcode-assets-catalog.git
+    dest: ~/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins
